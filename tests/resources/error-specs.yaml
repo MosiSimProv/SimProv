@@ -1,0 +1,81 @@
+Demo Entity:
+  attributes:
+    - foo*
+    - bar!
+    - bak!
+    - zar*
+    - gag
+
+PK Test Entity:
+  attributes:
+    - p1*
+    - p2*
+
+
+Research Question:
+  attributes:
+    - File Path*
+    - Content
+
+Assumption:
+  attributes:
+    - File Path*
+    - Content
+
+Reference:
+  attributes:
+    - File Path*
+    - Content
+
+Simulation Experiment:
+  attributes:
+    - File Path*
+    - Content
+
+Simulation Model:
+  attributes:
+    - File Path*
+    - Content
+
+Data:
+  attributes:
+    - Content
+    - File Path*
+
+Specifying Research Question:
+  usage:
+    - Research Question?
+  generation:
+    - Research Question
+
+Specifying Assumption:
+  usage:
+    - Assumption?
+  generation:
+    - Assumption
+
+
+Specifying Reference:
+  usage:
+    - Reference?
+  generation:
+    - Reference
+
+Specifying Simulation Experiment:
+  usage:
+    - Simulation Experiment?
+  generation:
+    - Simulation Experiment
+
+Specifying Simulation Model:
+  usage:
+    - Simulation Model?
+  generation:
+    - Simulation Model
+
+Run Experiment:
+  usage:
+    - Simulation Model
+    - Simulation Experiment
+  generation:
+    - Data

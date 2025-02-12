@@ -1,0 +1,33 @@
+[project]
+name = "simprov"
+version = '1.0'
+authors = [{ name = 'Andreas Ruscheinski', email = 'andreas.ruscheinski@uni-rostock.de' }, ]
+description = 'A tool for capturing provenacne from complex environemnts'
+readme = "README.md"
+license = { file = "LICENSE" }
+
+dependencies = ["pyyaml", "flask", "flask-cors", "networkx", "flask-socketio", "eventlet", "pygraphviz", "prov"]
+
+
+[project.optional-dependencies]
+dev = ["pytest",
+    "sphinx",
+    "sphinx-rtd-theme",
+    "sphinxcontrib-httpdomain",
+    "matplotlib",
+    "tox"
+]
+
+[project.urls]
+Homepage = "https://github.com/MosiSimProv/SimProv"
+Documentation = "https://readthedocs.org"
+Repository = "https://github.com/MosiSimProv/SimProv.git"
+Issues = "https://github.com/MosiSimProv/SimProv/issues"
+
+[project.scripts]
+simprov = "simprov.command_line:main"
+
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

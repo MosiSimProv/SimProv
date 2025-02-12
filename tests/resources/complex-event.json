@@ -1,0 +1,7 @@
+{
+  "type": "Experiment Executed Event",
+  "executed_experiment": "~/study/experiment.py",
+  "with_model": "~/study/my-model-py",
+  "generated_data": "~/study/exp1-results.dat",
+  "__comment": "This is complex event as ins and outs have to be determined from this event"
+}

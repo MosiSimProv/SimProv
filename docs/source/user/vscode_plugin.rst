@@ -63,9 +63,7 @@ Contribute
 
 - Source Code: https://github.com/MosiSimprov/simprov-vsc-capturer
 - Issue Tracker: https://github.com/MosiSimprov/simprov-vsc-capturer/issues
-- Documentation: ???
 
-.. todo:: Add links above
 
 Support
 -------

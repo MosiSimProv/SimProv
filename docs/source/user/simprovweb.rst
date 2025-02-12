@@ -65,9 +65,7 @@ Contribute
 
 - Source Code: https://github.com/MosiSimprov/SimProvWeb
 - Issue Tracker: https://github.com/MosiSimprov/SimProvWeb/issues
-- Documentation: ???
 
-.. todo:: Add links above
 
 Support
 -------

@@ -18,9 +18,7 @@ Contribute
 
 - Source Code: https://github.com/MosiSimProv/SimProv
 - Issue Tracker: https://github.com/MosiSimProv/SimProv/issues
-- Documentation: ???
-
-.. todo:: Add links above
+- Documentation: https://simprov.readthedocs.io/en/latest/
 
 Support
 -------

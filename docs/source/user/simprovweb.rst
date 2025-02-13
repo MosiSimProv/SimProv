@@ -9,7 +9,7 @@ Features
 - Exporting the captures provenance information
 - View the provenance graph in an aggregated form
 - Inspecting all events and errors
-- Automatically refreshing the provnenace graph when new provenance information was captured
+- Automatically refreshing the provenance graph when new provenance information was captured
 
 
 Dependencies

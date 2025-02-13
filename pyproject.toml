@@ -3,7 +3,7 @@ name = "simprov"
 version = '1.0'
 authors = [{ name = 'Andreas Ruscheinski', email = 'andreas.ruscheinski@uni-rostock.de' }, ]
 description = 'A tool for capturing provenacne from complex environemnts'
-readme = "README.md"
+readme = "README.rst"
 license = { file = "LICENSE" }
 
 dependencies = ["pyyaml", "flask", "flask-cors", "networkx", "flask-socketio", "eventlet", "pygraphviz", "prov"]
